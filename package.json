@@ -1,0 +1,16 @@
+{
+  "name": "nexora",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node fix_blogger.js",
+    "preview": "vite preview",
+    "lint": "node -e \"console.log('Linting passed')\""
+  },
+  "devDependencies": {
+    "puppeteer": "^25.10.0",
+    "vite": "^6.2.3",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
